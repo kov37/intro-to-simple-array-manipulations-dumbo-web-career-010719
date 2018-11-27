@@ -10,6 +10,10 @@ def pop_with_args(a)
   a.pop(2)
 end
 
+def using_unshift(a, str)
+  a.unshift(str)
+end
+
 def using_shift(a)
   a.shift 
 end
@@ -19,7 +23,7 @@ def shift_with_args(a)
 end
 
 def using_concat(a1, a2)
-  al.concat(a2)
+  a1.concat(a2)
 end
 
 def using_insert(a, i)
