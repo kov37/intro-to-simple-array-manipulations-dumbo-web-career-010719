@@ -19,5 +19,12 @@ def shift_with_args(a)
 end
 
 def using_concat(a1, a2)
-  
+  al.concat(a2)
+end
+
+def using_insert(a, i)
+  a.insert(3, i)
+end
+
+def 
   
