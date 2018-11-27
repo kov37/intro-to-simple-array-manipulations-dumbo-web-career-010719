@@ -1,0 +1,50 @@
+def using_push(a, i)
+  a.push(i)
+end
+
+def using_pop(a)
+  a.pop 
+end
+
+def pop_with_args(a)
+  a.pop(2)
+end
+
+def using_unshift(a, str)
+  a.unshift(str)
+end
+
+def using_shift(a)
+  a.shift 
+end
+
+def shift_with_args(a)
+  a.shift(2)
+end
+
+def using_concat(a1, a2)
+  a1.concat(a2)
+end
+
+def using_insert(a, i)
+  a.insert(4, i)
+end
+
+def using_uniq(a)
+  a.uniq 
+end
+
+def using_flatten(a)
+  a.flatten 
+end
+
+def using_delete(a, str)
+  a.delete(str)
+end
+
+def using_delete_at(a, i)
+  a.delete_at(i)
+end
+
+
+
