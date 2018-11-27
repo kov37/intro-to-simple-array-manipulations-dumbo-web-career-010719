@@ -6,4 +6,5 @@ def using_pop(a)
   a.pop 
 end
 
-def pop_with_args(a, )
+def pop_with_args(a)
+  a.pop
