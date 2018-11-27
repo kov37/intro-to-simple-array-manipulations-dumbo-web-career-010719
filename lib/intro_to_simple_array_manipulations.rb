@@ -18,5 +18,6 @@ def shift_with_args(a)
   a.shift(2)
 end
 
-def using_concat(a)
+def using_concat(a1, a2)
+  
   
