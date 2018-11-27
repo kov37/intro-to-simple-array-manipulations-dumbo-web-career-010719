@@ -26,5 +26,5 @@ def using_insert(a, i)
   a.insert(3, i)
 end
 
-def 
+def using_uniq(a)
   
