@@ -30,5 +30,5 @@ def using_uniq(a)
   a.uniq 
 end
 
-def 
+def using_flatten()
   
